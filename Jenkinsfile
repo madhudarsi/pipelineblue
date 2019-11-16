@@ -14,6 +14,7 @@ done'''
     }
 
     stage('maven build') {
+      agent any
       steps {
         sleep 60
       }
