@@ -17,6 +17,7 @@ done'''
       agent any
       steps {
         sleep 60
+        input(message: 'Hello', id: 'idnumber', ok: 'yes')
       }
     }
 
